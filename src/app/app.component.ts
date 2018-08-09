@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'aip-week3';
+  number = 3;
+
+  substract() {
+    this.number--;
+  }
 }
